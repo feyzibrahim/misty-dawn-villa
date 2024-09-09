@@ -47,7 +47,7 @@ export default function Navbar() {
 			</Link>
 			<div className="hidden lg:flex gap-5 text-sm animate-fadeIn">
 				<p className="text-foreground-secondary cursor-pointer hover:text-foreground">
-					<Link href="#about-me">About Us</Link>
+					<Link href="#about">About</Link>
 				</p>
 				<p className="text-foreground-secondary cursor-pointer hover:text-foreground">
 					<Link href="#experience">Experience</Link>

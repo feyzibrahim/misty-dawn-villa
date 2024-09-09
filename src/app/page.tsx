@@ -1,6 +1,7 @@
 import Image from "next/image";
 import bg from "../../public/img/cropped/29.jpg";
 import { oldStandardTT } from "./fonts";
+import AmenitiesIcons from "@/components/amenitiesIcons";
 
 export default function Home() {
 	return (
@@ -25,6 +26,9 @@ export default function Home() {
 					</p>
 				</div>
 			</main>
+
+			{/* About */}
+
 			<div className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:h-screen">
 				<div className="flex flex-col justify-center gap-5">
 					<p className="text-primary font-bold uppercase">About</p>
@@ -54,6 +58,57 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
+
+			{/* Rooms */}
+
+			<div className="lg:h-screen space-y-5 py-10">
+				<p className="text-primary font-bold uppercase">Our Rooms</p>
+				<h1 className={`${oldStandardTT.className} text-5xl font-bold`}>
+					Exquisite Cottage <br /> Accommodations
+				</h1>
+				<div className="w-32 h-1 bg-primary rounded-full flex-shrink-0 lg:mt-5"></div>
+				<div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
+					<Image
+						alt="rooms 3"
+						src="/img/cropped/34.jpg"
+						width={3024}
+						height={4032}
+						className="rounded-md"
+					/>
+					<Image
+						alt="rooms 1"
+						src="/img/cropped/32.jpg"
+						width={3024}
+						height={4032}
+						className="rounded-md"
+					/>
+					<Image
+						alt="rooms 2"
+						src="/img/cropped/33.jpg"
+						width={3024}
+						height={4032}
+						className="rounded-md"
+					/>
+				</div>
+			</div>
+
+			{/* Amenities */}
+
+			<div className="lg:h-screen space-y-5 py-10 grid grid-cols-1 lg:grid-cols-3">
+				<div className="flex flex-col justify-center gap-5">
+					<p className="text-primary font-bold uppercase">Amenities</p>
+					<h1 className={`${oldStandardTT.className} text-5xl font-bold`}>
+						Your All-Inclusive <br /> Experience
+					</h1>
+					<div className="w-32 h-1 bg-primary rounded-full flex-shrink-0 lg:mt-5"></div>
+					<p>
+						Indulge in a world of luxury and comfort with our exclusive resort
+						amenities, designed to create unforgettable experiences for you.
+					</p>
+				</div>
+				<AmenitiesIcons />
+			</div>
+
 			{/* <footer
 				className="row-start-3 flex gap-6 flex-wrap items-center justify-center h-screen"
 				id="contact"
