@@ -50,10 +50,16 @@ export default function Navbar() {
 					<Link href="#about">About</Link>
 				</p>
 				<p className="text-foreground-secondary cursor-pointer hover:text-foreground">
-					<Link href="#experience">Experience</Link>
+					<Link href="#rooms">Rooms</Link>
 				</p>
 				<p className="text-foreground-secondary cursor-pointer hover:text-foreground">
-					<Link href="#contact">Contact Us</Link>
+					<Link href="#amenities">Amenities</Link>
+				</p>
+				<p className="text-foreground-secondary cursor-pointer hover:text-foreground">
+					<Link href="#gallery">Gallery</Link>
+				</p>
+				<p className="text-foreground-secondary cursor-pointer hover:text-foreground">
+					<Link href="#contact-us">Contact</Link>
 				</p>
 			</div>
 			<div className="lg:hidden">
