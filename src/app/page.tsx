@@ -139,8 +139,8 @@ export default function Home() {
 					width="100%"
 					height="400"
 				/>
-				<div className="z-10 bottom-0 p-6 w-full -mt-20">
-					<div className="py-5 bg-white shadow-lg border rounded-3xl p-5 flex items-center justify-between">
+				<div className="z-10 bottom-0 p-6 w-full">
+					<div className="py-5 bg-white shadow-lg border rounded-3xl p-5 flex gap-5 flex-col md:flex-row items-center justify-between">
 						<Link
 							href="mailto:mistydawn.villa@gmail.com"
 							className="text-primary underline hover:text-blue-600"
@@ -165,7 +165,7 @@ export default function Home() {
 				</div>
 			</div>
 
-			<footer className="bg-[#dee7f5]  py-8">
+			<footer className="bg-[#dee7f5] px-5 py-8">
 				<div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
 					{/* About Section */}
 					<div>
