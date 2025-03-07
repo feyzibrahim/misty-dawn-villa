@@ -148,7 +148,7 @@ export default function Home() {
 							mistydawn.villa@gmail.com
 						</Link>
 						<Link
-							href="https://api.whatsapp.com/send?phone=918089868618"
+							href="https://api.whatsapp.com/send?phone=918590868685"
 							passHref
 							className="flex w-fit gap-5 items-center justify-center px-4 py-2 bg-green-500 text-white font-bold rounded-lg hover:bg-green-600 transition duration-300"
 						>
@@ -156,10 +156,10 @@ export default function Home() {
 							<FaWhatsapp className="w-5 h-5" />
 						</Link>
 						<Link
-							href="tel:+918089868618"
+							href="tel:+918590868685"
 							className="text-primary underline hover:text-blue-600"
 						>
-							+91 8089868618
+							+91 8590868685
 						</Link>
 					</div>
 				</div>
@@ -207,7 +207,7 @@ export default function Home() {
 					<div>
 						<h2 className="text-lg font-semibold mb-4">Contact Us</h2>
 						<p className="">Email: mistydawn.villa@gmail.com</p>
-						<p className="">Phone: +91 8089868618</p>
+						<p className="">Phone: +91 8590868685</p>
 						<div className="mt-4 space-x-4 flex gap-5">
 							<Link
 								target="_blank"
